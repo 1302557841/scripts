@@ -211,7 +211,7 @@ async function sendNotify(
     text,
     desp,
     params = {},
-    author = '\n\nQQ群：870906127\n\n京东爱心公益活动',
+    author = '\n\nQQ群：\n\n京东爱心公益活动',
 ) {
     //提供6种通知
     if (process.env.pushDesc) {
